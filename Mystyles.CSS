@@ -1,0 +1,53 @@
+/* CSS for styling the navigation menu */
+div {
+  border: 5px solid black;
+  height: 800px;
+  width: 60%;
+  background-color: rgb(15, 127, 147);
+}
+nav{
+  background-color: #eb4a4a;
+  color:white;
+  padding: 10px;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a{
+  color:white;
+  text-decoration: 20px;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+}
+section{
+  padding: 20px;
+}
+footer{
+  background-color: rgb(239, 101, 198);
+  color:#fff;
+  text-align: center;
+  padding: 10px;
+}
+body ,h1,h2,h3,ul,li {
+  margin: 5;
+  padding: 5;
+}
+h1{
+  color:rgba(0, 5, 91, 0.883);
+}
+h2{
+  color:rgb(231, 14, 14);
+}
+p{
+  color:black;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
